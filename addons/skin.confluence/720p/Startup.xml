@@ -19,7 +19,7 @@
 		</control>
 		<include>CommonBackground</include>
 		<control type="image">
-			<visible>StringCompare(Skin.String(Branding),)</visible>
+			<visible>StringCompare(Skin.String(Branding),) + !System.IsLoggedOn</visible>
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
