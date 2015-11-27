@@ -18,5 +18,13 @@
 			<visible>Skin.HasSetting(Use_Startup_Playlist)</visible>
 		</control>
 		<include>CommonBackground</include>
+		<control type="image">
+			<visible>StringCompare(Skin.String(Branding),)</visible>
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture>white.png</texture>
+		</control>
 	</controls>
 </window>
