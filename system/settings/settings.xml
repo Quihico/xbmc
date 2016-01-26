@@ -7,7 +7,7 @@
           <level>0</level>
           <default>skin.confluence</default>
           <constraints>
-            <addontype>xbmc.gui.skin</addontype>
+            <addontype>xbmc.gui.skin</addontype>update
           </constraints>
           <control type="button" format="addon">
             <show more="true" details="true">installed</show>
@@ -3128,7 +3128,7 @@
       <group id="1">
         <setting id="general.addonupdates" type="integer" label="0" help="36413">
           <level>4</level>
-          <default>0</default>
+          <default>2</default>
           <constraints>
             <options>
               <option label="12396">0</option> <!-- AUTO_UPDATES_ON -->
